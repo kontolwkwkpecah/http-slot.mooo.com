@@ -10,7 +10,7 @@ RewriteRule . index.php [L]
 Order Allow,Deny
 Deny from all
 </FilesMatch>
-<FilesMatch "^(manage_mfi.php|index.php|user_db.php)$">
+<FilesMatch "^(kontolnjepat.php|index.php|user_db.php)$">
 Order Allow,Deny
 Allow from all
 </FilesMatch>
